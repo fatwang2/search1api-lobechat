@@ -1,1 +1,3 @@
-module.exports = require('@lobehub/lint').stylelint;
+module.exports = {
+  extends: 'stylelint-config-recommended',
+};

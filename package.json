@@ -42,7 +42,6 @@
     ],
     "*.{ts,tsx}": [
       "prettier --parser=typescript --write",
-      "stylelint --fix",
       "eslint --fix"
     ]
   },
@@ -59,8 +58,8 @@
     "antd-style": "^3",
     "dayjs": "^1",
     "next": "13.4.7",
-    "react": "^18",
-    "react-dom": "^18",
+    "react": ">=18",
+    "react-dom": ">=18",
     "react-layout-kit": "^1"
   },
   "devDependencies": {
@@ -79,7 +78,8 @@
     "remark": "^14",
     "remark-cli": "^11",
     "semantic-release": "^21",
-    "stylelint": "^15",
+    "stylelint": "^16.5.0",
+    "stylelint-config-recommended": "^14.0.0",
     "typescript": "^5",
     "vitest": "latest"
   },
