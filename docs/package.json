@@ -7,7 +7,6 @@
     "dev": "dumi dev"
   },
   "devDependencies": {
-    "babel-plugin-antd-style": "^1",
     "dumi": "^2",
     "dumi-theme-lobehub": "latest"
   }

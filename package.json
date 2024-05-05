@@ -53,8 +53,6 @@
     "@lobehub/chat-plugin-sdk": "^1",
     "@lobehub/chat-plugins-gateway": "^1",
     "@lobehub/ui": "latest",
-    "antd": "^5",
-    "antd-style": "^3",
     "dayjs": "^1",
     "next": "13.4.7",
     "react": ">=18",
