@@ -1,6 +1,6 @@
 ---
 title: Changelog
-description: New updates and improvements to @lobehub/chat-plugin-realtime-weather
+description: New updates and improvements to @fatwang2/search1api-lobechat
 nav:
   title: Changelog
   order: 999

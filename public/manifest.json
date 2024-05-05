@@ -3,7 +3,7 @@
   "api": [
     {
       "name": "search1api",
-      "url": "https://api.search1api.com/search",
+      "url": "https://lobehub.search1api.com/api/search",
       "description": "又快又便宜的搜索聚合服务",
       "parameters": {
         "properties": {

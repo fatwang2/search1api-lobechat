@@ -1,7 +1,5 @@
 ---
 hero:
-  title: Project <b>Template</b>
-  description: This is the plugin template for LobeChat plugin development
+  title: Search1API <b>Plugin</b>
+  description: This is the search1api plugin for LobeChat plugin development
 ---
-
-<code src="./demo.tsx" inline></code>
