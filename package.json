@@ -62,6 +62,7 @@
   "devDependencies": {
     "@commitlint/cli": "^18",
     "@lobehub/lint": "latest",
+    "babel-plugin-antd-style": "^1",
     "@types/react": "18",
     "@vercel/node": "^2",
     "@vitest/coverage-v8": "latest",
