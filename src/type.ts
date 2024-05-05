@@ -19,3 +19,6 @@ export interface SearchResponse {
   results: SearchResult[];
   searchParameters: SearchParameters;
 }
+export interface Settings {
+  SEARCH1API_KEY?: string;
+}
