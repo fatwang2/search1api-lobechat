@@ -1,8 +1,9 @@
 {
+  "$schema": "../node_modules/@lobehub/chat-plugin-sdk/schema.json",
   "api": [
     {
       "name": "search1api",
-      "url": "http://localhost:3400/search",
+      "url": "https://api.search1api.com/search",
       "description": "又快又便宜的搜索聚合服务",
       "parameters": {
         "properties": {
@@ -16,8 +17,9 @@
       }
     }
   ],
-  "gateway": "http://localhost:3400/api/gateway",
-  "identifier": "search1api-dev",
+  "author": "fatwang2",
+  "homepage": "https://github.com/fatwang2/search1api-lobechat",
+  "identifier": "search1api",
   "meta": {
     "avatar": "🔍",
     "tags": ["web", "search"],
