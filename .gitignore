@@ -50,3 +50,11 @@ docs-dist
 bun.lockb
 docs/.dumi/*
 public/docs
+# pnpm
+.pnpm-store/
+.pnpm-debug.log
+pnpm-lock.yaml
+pnpm-workspace.yaml
+
+# 部署文档
+deploy.md

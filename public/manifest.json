@@ -2,27 +2,57 @@
   "$schema": "../node_modules/@lobehub/chat-plugin-sdk/schema.json",
   "api": [
     {
-      "name": "search1api",
+      "name": "search",
       "url": "https://lobehub.search1api.com/api/search",
-      "description": "又快又便宜的搜索聚合服务",
+      "description": "网页搜索工具",
       "parameters": {
         "properties": {
           "query": {
-            "description": "搜索的文本内容",
+            "description": "需要搜索的内容",
             "type": "string"
           }
         },
         "required": ["query"],
         "type": "object"
       }
+    },
+    {
+      "name": "crawl",
+      "url": "https://lobehub.search1api.com/api/crawl",
+      "description": "网页内容抓取工具",
+      "parameters": {
+        "properties": {
+          "url": {
+            "description": "要抓取的网页URL",
+            "type": "string"
+          }
+        },
+        "required": ["url"],
+        "type": "object"
+      }
+    },
+    {
+      "name": "sitemap",
+      "url": "https://lobehub.search1api.com/api/sitemap",
+      "description": "网站地图获取工具",
+      "parameters": {
+        "properties": {
+          "url": {
+            "description": "要获取网站地图的的URL",
+            "type": "string"
+          }
+        },
+        "required": ["url"],
+        "type": "object"
+      }
     }
   ],
   "author": "fatwang2",
-  "homepage": "https://github.com/fatwang2/search1api-lobechat",
+  "homepage": "https://x.com/fatwang2ai",
   "identifier": "search1api",
   "meta": {
-    "avatar": "https://i.postimg.cc/fRtTXTvC/favicon.webp",
-    "tags": ["web", "search"],
+    "avatar": "https://pics.fatwang2.com/56912e614b35093426c515860f9f2234.svg",
+    "tags": ["web", "search", "crawl", "sitemap"],
     "title": "Search1API",
     "description": "搜索聚合服务，专为大模型优化"
   },
