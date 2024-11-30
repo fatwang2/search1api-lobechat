@@ -25,9 +25,9 @@ export interface CrawlParameters {
 }
 
 export interface CrawlResult {
-  title: string;
-  link: string;
   content: string;
+  link: string;
+  title: string;
 }
 
 export interface CrawlResponse {
