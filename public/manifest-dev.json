@@ -37,7 +37,7 @@
       "parameters": {
         "properties": {
           "url": {
-            "description": "要获取网站地图的的URL",
+            "description": "要获取网站地图或者相关链接的的URL",
             "type": "string"
           }
         },
@@ -52,8 +52,9 @@
     "avatar": "https://pics.fatwang2.com/56912e614b35093426c515860f9f2234.svg",
     "tags": ["web", "search","crawl","sitemap"],
     "title": "Search1API",
-    "description": "搜索聚合服务，专为大模型优化"
+    "description": "一站式搜索服务，专为大模型优化"
   },
+  "systemRole": "This plugin provides three functions: web search, web content crawling, and sitemap retrieval. The tools can be used individually or combined to accomplish complex tasks. For example, use the search tool to find web pages related to a keyword, then use the sitemap tool to retrieve the structure and links of the website, and finally use the crawl tool to extract detailed content from the target page",
   "settings": {
     "type": "object",
     "required": ["SEARCH1API_KEY"],
