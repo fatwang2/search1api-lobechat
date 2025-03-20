@@ -1,15 +1,15 @@
 export enum SearchService {
-  GOOGLE = "google",
+  ARXIV = "arxiv",
+  BILIBILI = "bilibili",
   BING = "bing",
   DUCKDUCKGO = "duckduckgo",
-  YAHOO = "yahoo",
   GITHUB = "github",
-  YOUTUBE = "youtube",
-  ARXIV = "arxiv",
-  WECHAT = "wechat",
-  BILIBILI = "bilibili",
+  GOOGLE = "google",
   IMDB = "imdb",
+  WECHAT = "wechat",
   WIKIPEDIA = "wikipedia",
+  YAHOO = "yahoo",
+  YOUTUBE = "youtube",
 }
 
 export enum TimeRange {
@@ -20,11 +20,11 @@ export enum TimeRange {
 
 export interface SearchParameters {
   crawl_results?: number;
+  exclude_sites?: string[];
+  include_sites?: string[];
   max_results?: number;
   query: string;
   search_service?: SearchService | string;
-  include_sites?: string[];
-  exclude_sites?: string[];
   time_range?: TimeRange | string;
 }
 
