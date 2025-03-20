@@ -20,17 +20,27 @@ export default async (req: Request) => {
     });
 
   try {
-    const { query, search_service, max_results, crawl_results, image, gl, hl } =
-      (await req.json()) as SearchParameters;
+    const { 
+      query, 
+      search_service, 
+      max_results, 
+      crawl_results, 
+      include_sites,
+      exclude_sites,
+      time_range 
+    } = (await req.json()) as SearchParameters;
+    
     const searchParameters: SearchParameters = {
       crawl_results: crawl_results ?? 0,
-      gl: gl ?? '',
-      hl: hl ?? '',
-      image: image ?? false,
-      max_results: max_results ?? 5,
+      max_results: max_results ?? 10,
       query,
       search_service: search_service ?? 'google',
     };
+    
+    if (include_sites) searchParameters.include_sites = include_sites;
+    if (exclude_sites) searchParameters.exclude_sites = exclude_sites;
+    if (time_range) searchParameters.time_range = time_range;
+
     const apiKey = settings.SEARCH1API_KEY;
     console.log('API Key:', apiKey);
 

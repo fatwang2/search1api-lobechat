@@ -1,11 +1,31 @@
+export enum SearchService {
+  GOOGLE = "google",
+  BING = "bing",
+  DUCKDUCKGO = "duckduckgo",
+  YAHOO = "yahoo",
+  GITHUB = "github",
+  YOUTUBE = "youtube",
+  ARXIV = "arxiv",
+  WECHAT = "wechat",
+  BILIBILI = "bilibili",
+  IMDB = "imdb",
+  WIKIPEDIA = "wikipedia",
+}
+
+export enum TimeRange {
+  DAY = "day",
+  MONTH = "month",
+  YEAR = "year"
+}
+
 export interface SearchParameters {
   crawl_results?: number;
-  gl?: string;
-  hl?: string;
-  image?: boolean;
   max_results?: number;
   query: string;
-  search_service?: string;
+  search_service?: SearchService | string;
+  include_sites?: string[];
+  exclude_sites?: string[];
+  time_range?: TimeRange | string;
 }
 
 export interface SearchResult {

@@ -1,10 +1,10 @@
 {
-  "name": "plugin-identifier",
-  "version": "1.5.1",
+  "name": "search1api-plugin",
+  "version": "1.1.2",
   "private": true,
-  "description": "This is the plugin template for LobeChat plugin development",
-  "homepage": "https://github.com/lobehub/chat-plugin-template",
-  "repository": "https://github.com/lobehub/chat-plugin-template.git",
+  "description": "Search1API 官方 Lobechat 插件",
+  "homepage": "https://www.search1api.com",
+  "repository": " https://github.com/fatwang2/search1api-lobechat",
   "workspaces": [
     "docs/*",
     "./*"
