@@ -16,7 +16,6 @@ tmp
 node_modules
 *.log
 *.lock
-package-lock.json
 
 # ci
 coverage
