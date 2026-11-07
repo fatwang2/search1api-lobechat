@@ -100,7 +100,7 @@
     "properties": {
       "SEARCH1API_KEY": {
         "title": "Search1API API Key",
-        "description": "we use [Search1API](https://search1api.com) as backend service | 该插件使用 Search1API 作为搜索服务",
+        "description": "we use [Search1API](https://s1.dev) as backend service | 该插件使用 Search1API 作为搜索服务",
         "type": "string",
         "format": "password"
       }

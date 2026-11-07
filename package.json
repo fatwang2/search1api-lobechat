@@ -3,7 +3,7 @@
   "version": "1.1.2",
   "private": true,
   "description": "Search1API 官方 Lobechat 插件",
-  "homepage": "https://www.search1api.com",
+  "homepage": "https://s1.dev",
   "repository": " https://github.com/fatwang2/search1api-lobechat",
   "workspaces": [
     "docs/*",
